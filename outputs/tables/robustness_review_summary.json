@@ -1,0 +1,17 @@
+{
+  "missing_weight_share": 0.026025970791474128,
+  "paired_missing_bounds": {
+    "lower": -0.015669713620560438,
+    "upper": 0.036382227962387818
+  },
+  "missing_group_tipping_mean": -0.39792011041164727,
+  "screen_results": {
+    "raw": "present_screen_pass",
+    "harmonised": "present_screen_pass",
+    "upward": "present_screen_pass",
+    "downward": "present_screen_pass",
+    "reclassified": "present_screen_pass"
+  },
+  "n_response_cells": 36,
+  "largest_response_weight_multiplier": 1.0834132855827141
+}

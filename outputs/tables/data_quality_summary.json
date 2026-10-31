@@ -1,0 +1,52 @@
+{
+  "scope": "NHANES August 2021-August 2023; age >=20; unweighted exploratory QC",
+  "n_adults_in_demographics": 7809,
+  "n_adults_valid_urine_laboratory": 5910,
+  "n_adults_missing_or_invalid_laboratory": 1899,
+  "n_valid_with_missing_or_nonpositive_mec_weight": 0,
+  "raw_acr_vs_cdc_URDACT": {
+    "max_absolute_difference_mg_g": 0.005,
+    "count_difference_over_0_011_mg_g": 0,
+    "count_missing_cdc_URDACT": 0,
+    "note": "The published URDACT is rounded to 2 decimal places."
+  },
+  "reclassification": {
+    "raw_at_or_above_30": 721,
+    "harmonised_at_or_above_30": 786,
+    "below_to_above": 71,
+    "above_to_below": 6,
+    "total": 77,
+    "raw_UACR_between_20_and_40": 552,
+    "reclassifications_with_raw_UACR_between_20_and_40": 77
+  },
+  "negative_conversion": {
+    "negative_values_before_zero_clipping": 426,
+    "of_these_reclassified": 0,
+    "of_these_originally_at_or_above_30": 0,
+    "warning": "Clipping to zero is an analysis decision, not specified as a clinical rule by CDC."
+  },
+  "below_albumin_detection_limit_flag": {
+    "URDUMALC_1_valid": 426,
+    "note": "Review urine albumin results at or below the analytical detection limit."
+  },
+  "age_group_reclassification": {
+    "20-39": {
+      "n": 1524,
+      "raw_at_or_above_30": 74,
+      "harmonised_at_or_above_30": 90,
+      "reclassified": 18
+    },
+    "40-59": {
+      "n": 1700,
+      "raw_at_or_above_30": 182,
+      "harmonised_at_or_above_30": 195,
+      "reclassified": 19
+    },
+    "60-150": {
+      "n": 2686,
+      "raw_at_or_above_30": 465,
+      "harmonised_at_or_above_30": 501,
+      "reclassified": 40
+    }
+  }
+}

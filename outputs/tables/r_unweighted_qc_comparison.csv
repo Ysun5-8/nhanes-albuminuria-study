@@ -1,0 +1,8 @@
+"field","python_qc_count","r_count","pass"
+"n_adults_with_valid_lab",5910,5910,TRUE
+"raw_above_30",721,721,TRUE
+"adjusted_above_30",786,786,TRUE
+"cross_below_to_above",71,71,TRUE
+"cross_above_to_below",6,6,TRUE
+"any_reclassification",77,77,TRUE
+"clipped_adjusted_albumin",426,426,TRUE

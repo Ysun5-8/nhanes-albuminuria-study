@@ -1,0 +1,5 @@
+"Outcome","Unit","N","Estimate","CI95"
+"Raw UACR >=30 mg/g","%",5910,"10.35","9.36 to 11.35"
+"Harmonised UACR >=30 mg/g","%",5910,"11.42","10.25 to 12.59"
+"Paired difference","percentage points",5910,"1.06","0.68 to 1.45"
+"Any reclassification","%",5910,"1.23","0.85 to 1.61"

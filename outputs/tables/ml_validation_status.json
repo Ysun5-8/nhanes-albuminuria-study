@@ -1,0 +1,21 @@
+{
+  "n_adults": 5910,
+  "split_seeds": [
+    42,
+    101,
+    202,
+    303,
+    404
+  ],
+  "folds_per_seed": 5,
+  "n_full_design_strata": 15,
+  "psus_per_stratum": 2,
+  "resamples": 1000,
+  "resampling_seed": 2026,
+  "conditional_on_seed_42_predictions": true,
+  "models_refitted_in_resamples": false,
+  "initial_run_agreement": true,
+  "all_metric_resamples_valid": true,
+  "minimum_valid_bin_resamples": 1000,
+  "interpretation": "Conditional resampling intervals; split ranges are not confidence intervals."
+}

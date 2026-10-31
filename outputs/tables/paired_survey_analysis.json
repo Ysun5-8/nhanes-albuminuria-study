@@ -1,0 +1,326 @@
+{
+  "cycle": "August 2021-August 2023",
+  "units": "proportions; multiply by 100 for percent or percentage points",
+  "method": "Domain ratio, with-replacement stratified PSU Taylor linearization; two-sided t Wald 95% CI; no FPC",
+  "interpretation": "Complete urine-data adults with MEC weights; national interpretation assumes ignorable residual urine nonresponse. Single specimen, not CKD diagnosis. Bridge coefficients treated as fixed.",
+  "n_full_mec_design": 8860,
+  "n_strata": 15,
+  "n_psus": 30,
+  "primary": {
+    "raw_at_or_above_30": {
+      "estimate": 0.10353931818942434,
+      "standard_error": 0.004667975753149954,
+      "ci95_lower": 0.09358976339168883,
+      "ci95_upper": 0.11348887298715986,
+      "design_df": 15,
+      "n_domain": 5910
+    },
+    "harmonised_at_or_above_30": {
+      "estimate": 0.11417230927577743,
+      "standard_error": 0.005485770033268201,
+      "ci95_lower": 0.10247966723132249,
+      "ci95_upper": 0.12586495132023237,
+      "design_df": 15,
+      "n_domain": 5910
+    },
+    "paired_difference_harmonised_minus_raw": {
+      "estimate": 0.010632991086353124,
+      "standard_error": 0.0018123354511116376,
+      "ci95_lower": 0.006770089512679354,
+      "ci95_upper": 0.014495892660026894,
+      "design_df": 15,
+      "n_domain": 5910
+    },
+    "any_reclassification": {
+      "estimate": 0.012313827700989542,
+      "standard_error": 0.001777377230052646,
+      "ci95_lower": 0.008525437811705536,
+      "ci95_upper": 0.016102217590273547,
+      "design_df": 15,
+      "n_domain": 5910
+    },
+    "below_to_above": {
+      "estimate": 0.011473409393671332,
+      "standard_error": 0.001767641953716011,
+      "ci95_lower": 0.007705769754710946,
+      "ci95_upper": 0.015241049032631718,
+      "design_df": 15,
+      "n_domain": 5910
+    },
+    "above_to_below": {
+      "estimate": 0.0008404183073182089,
+      "standard_error": 0.00031186010661170315,
+      "ci95_lower": 0.00017570422480247107,
+      "ci95_upper": 0.0015051323898339465,
+      "design_df": 15,
+      "n_domain": 5910
+    }
+  },
+  "sensitivity": {
+    "exclude_below_detection_either_analyte": {
+      "raw_at_or_above_30": {
+        "estimate": 0.11231643389926303,
+        "standard_error": 0.004860172371474577,
+        "ci95_lower": 0.10195722170674137,
+        "ci95_upper": 0.12267564609178469,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "harmonised_at_or_above_30": {
+        "estimate": 0.12385079264708622,
+        "standard_error": 0.005711029213291784,
+        "ci95_lower": 0.11167802202573685,
+        "ci95_upper": 0.1360235632684356,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "paired_difference_harmonised_minus_raw": {
+        "estimate": 0.011534358747823175,
+        "standard_error": 0.0019524406129904897,
+        "ci95_lower": 0.0073728300905321455,
+        "ci95_upper": 0.015695887405114205,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "any_reclassification": {
+        "estimate": 0.013357681306098964,
+        "standard_error": 0.0019094478190324752,
+        "ci95_lower": 0.00928778961995209,
+        "ci95_upper": 0.017427572992245836,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "below_to_above": {
+        "estimate": 0.01244602002696107,
+        "standard_error": 0.0019012900235563304,
+        "ci95_lower": 0.008393516270274595,
+        "ci95_upper": 0.016498523783647544,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "above_to_below": {
+        "estimate": 0.0009116612791378951,
+        "standard_error": 0.00033779269790279015,
+        "ci95_lower": 0.0001916731866995825,
+        "ci95_upper": 0.0016316493715762077,
+        "design_df": 15,
+        "n_domain": 5484
+      }
+    },
+    "exclude_negative_bridge_values": {
+      "raw_at_or_above_30": {
+        "estimate": 0.11231643389926303,
+        "standard_error": 0.004860172371474577,
+        "ci95_lower": 0.10195722170674137,
+        "ci95_upper": 0.12267564609178469,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "harmonised_at_or_above_30": {
+        "estimate": 0.12385079264708622,
+        "standard_error": 0.005711029213291784,
+        "ci95_lower": 0.11167802202573685,
+        "ci95_upper": 0.1360235632684356,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "paired_difference_harmonised_minus_raw": {
+        "estimate": 0.011534358747823175,
+        "standard_error": 0.0019524406129904897,
+        "ci95_lower": 0.0073728300905321455,
+        "ci95_upper": 0.015695887405114205,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "any_reclassification": {
+        "estimate": 0.013357681306098964,
+        "standard_error": 0.0019094478190324752,
+        "ci95_lower": 0.00928778961995209,
+        "ci95_upper": 0.017427572992245836,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "below_to_above": {
+        "estimate": 0.01244602002696107,
+        "standard_error": 0.0019012900235563304,
+        "ci95_lower": 0.008393516270274595,
+        "ci95_upper": 0.016498523783647544,
+        "design_df": 15,
+        "n_domain": 5484
+      },
+      "above_to_below": {
+        "estimate": 0.0009116612791378951,
+        "standard_error": 0.00033779269790279015,
+        "ci95_lower": 0.0001916731866995825,
+        "ci95_upper": 0.0016316493715762077,
+        "design_df": 15,
+        "n_domain": 5484
+      }
+    },
+    "strictly_greater_than_30": {
+      "raw_at_or_above_30": {
+        "estimate": 0.10345256868997077,
+        "standard_error": 0.004688590157464081,
+        "ci95_lower": 0.09345907532952792,
+        "ci95_upper": 0.11344606205041362,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "harmonised_at_or_above_30": {
+        "estimate": 0.11417230927577743,
+        "standard_error": 0.005485770033268201,
+        "ci95_lower": 0.10247966723132249,
+        "ci95_upper": 0.12586495132023237,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "paired_difference_harmonised_minus_raw": {
+        "estimate": 0.010719740585806685,
+        "standard_error": 0.001823349367860479,
+        "ci95_lower": 0.006833363404283763,
+        "ci95_upper": 0.014606117767329606,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "any_reclassification": {
+        "estimate": 0.012227078201535981,
+        "standard_error": 0.0017630895177287158,
+        "ci95_lower": 0.008469141850191906,
+        "ci95_upper": 0.015985014552880056,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "below_to_above": {
+        "estimate": 0.011473409393671332,
+        "standard_error": 0.001767641953716011,
+        "ci95_lower": 0.007705769754710946,
+        "ci95_upper": 0.015241049032631718,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "above_to_below": {
+        "estimate": 0.000753668807864648,
+        "standard_error": 0.0003032914536614669,
+        "ci95_lower": 0.00010721837678575057,
+        "ci95_upper": 0.0014001192389435455,
+        "design_df": 15,
+        "n_domain": 5910
+      }
+    },
+    "published_rounded_raw_URDACT": {
+      "raw_at_or_above_30": {
+        "estimate": 0.10353931818942434,
+        "standard_error": 0.004667975753149954,
+        "ci95_lower": 0.09358976339168883,
+        "ci95_upper": 0.11348887298715986,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "harmonised_at_or_above_30": {
+        "estimate": 0.11417230927577743,
+        "standard_error": 0.005485770033268201,
+        "ci95_lower": 0.10247966723132249,
+        "ci95_upper": 0.12586495132023237,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "paired_difference_harmonised_minus_raw": {
+        "estimate": 0.010632991086353124,
+        "standard_error": 0.0018123354511116376,
+        "ci95_lower": 0.006770089512679354,
+        "ci95_upper": 0.014495892660026894,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "any_reclassification": {
+        "estimate": 0.012313827700989542,
+        "standard_error": 0.001777377230052646,
+        "ci95_lower": 0.008525437811705536,
+        "ci95_upper": 0.016102217590273547,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "below_to_above": {
+        "estimate": 0.011473409393671332,
+        "standard_error": 0.001767641953716011,
+        "ci95_lower": 0.007705769754710946,
+        "ci95_upper": 0.015241049032631718,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "above_to_below": {
+        "estimate": 0.0008404183073182089,
+        "standard_error": 0.00031186010661170315,
+        "ci95_lower": 0.00017570422480247107,
+        "ci95_upper": 0.0015051323898339465,
+        "design_df": 15,
+        "n_domain": 5910
+      }
+    },
+    "unclipped_bridge": {
+      "raw_at_or_above_30": {
+        "estimate": 0.10353931818942434,
+        "standard_error": 0.004667975753149954,
+        "ci95_lower": 0.09358976339168883,
+        "ci95_upper": 0.11348887298715986,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "harmonised_at_or_above_30": {
+        "estimate": 0.11417230927577743,
+        "standard_error": 0.005485770033268201,
+        "ci95_lower": 0.10247966723132249,
+        "ci95_upper": 0.12586495132023237,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "paired_difference_harmonised_minus_raw": {
+        "estimate": 0.010632991086353124,
+        "standard_error": 0.0018123354511116376,
+        "ci95_lower": 0.006770089512679354,
+        "ci95_upper": 0.014495892660026894,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "any_reclassification": {
+        "estimate": 0.012313827700989542,
+        "standard_error": 0.001777377230052646,
+        "ci95_lower": 0.008525437811705536,
+        "ci95_upper": 0.016102217590273547,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "below_to_above": {
+        "estimate": 0.011473409393671332,
+        "standard_error": 0.001767641953716011,
+        "ci95_lower": 0.007705769754710946,
+        "ci95_upper": 0.015241049032631718,
+        "design_df": 15,
+        "n_domain": 5910
+      },
+      "above_to_below": {
+        "estimate": 0.0008404183073182089,
+        "standard_error": 0.00031186010661170315,
+        "ci95_lower": 0.00017570422480247107,
+        "ci95_upper": 0.0015051323898339465,
+        "design_df": 15,
+        "n_domain": 5910
+      }
+    }
+  },
+  "missing_outcome_prevalence_bounds_no_ci": {
+    "raw": {
+      "lower": 0.10084460691845723,
+      "upper": 0.12687057770993135
+    },
+    "harmonised": {
+      "lower": 0.11120086408937091,
+      "upper": 0.13722683488084503
+    }
+  },
+  "limitations": [
+    "Wald intervals, especially for rare directional changes, are approximate; check NCHS presentation standards before publication.",
+    "No item nonresponse reweighting or bridge-parameter uncertainty propagation.",
+    "Sensitivity exclusions change the target domain; they are not interchangeable national estimates."
+  ]
+}

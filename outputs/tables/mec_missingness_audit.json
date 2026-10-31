@@ -1,0 +1,221 @@
+{
+  "scope": "Unweighted cohort flow and descriptive weighted missingness; age >=20",
+  "cycles": {
+    "2017-2020": {
+      "n_adults_demographics": 9232,
+      "n_adults_positive_mec_weight": 8544,
+      "n_adults_interview_only": 688,
+      "n_adults_missing_mec_weight": 0,
+      "n_adults_zero_mec_weight": 688,
+      "n_adults_negative_mec_weight": 0,
+      "n_eligible_no_lab_row": 0,
+      "lab_record_categories": {
+        "no_lab_record": 0,
+        "both_analytes_missing_with_record": 224,
+        "albumin_only_missing_with_record": 0,
+        "creatinine_only_missing_with_record": 1,
+        "both_analytes_present_valid": 8319,
+        "both_analytes_present_invalid": 0
+      },
+      "n_eligible_valid_lab": 8319,
+      "n_eligible_missing_or_invalid_lab": 225,
+      "missing_or_invalid_pct_of_eligible": 2.633426966292135,
+      "weighted_missing_or_invalid_pct_of_eligible": 1.8697462947822607,
+      "n_eligible_nonmissing_invalid_albumin": 0,
+      "n_eligible_nonmissing_invalid_creatinine": 0,
+      "n_eligible_missing_design": 0,
+      "missingness_patterns_among_eligible": {
+        "albumin_missing_True_creatinine_missing_True": 224,
+        "albumin_missing_True_creatinine_missing_False": 0,
+        "albumin_missing_False_creatinine_missing_True": 1,
+        "albumin_missing_False_creatinine_missing_False": 8319
+      },
+      "missingness_by_demographics": {
+        "age_group": {
+          "20-39": {
+            "n_eligible": 2595,
+            "n_valid": 2531,
+            "missing_or_invalid_pct": 2.466281310211946,
+            "weighted_missing_or_invalid_pct": 1.8587770527814926
+          },
+          "40-59": {
+            "n_eligible": 2808,
+            "n_valid": 2768,
+            "missing_or_invalid_pct": 1.4245014245014245,
+            "weighted_missing_or_invalid_pct": 0.8767803236469657
+          },
+          "60+": {
+            "n_eligible": 3141,
+            "n_valid": 3020,
+            "missing_or_invalid_pct": 3.8522763451130215,
+            "weighted_missing_or_invalid_pct": 3.0215753865792747
+          }
+        },
+        "RIAGENDR": {
+          "1.0": {
+            "n_eligible": 4135,
+            "n_valid": 4032,
+            "missing_or_invalid_pct": 2.4909310761789603,
+            "weighted_missing_or_invalid_pct": 1.75158100747229
+          },
+          "2.0": {
+            "n_eligible": 4409,
+            "n_valid": 4287,
+            "missing_or_invalid_pct": 2.7670673622136537,
+            "weighted_missing_or_invalid_pct": 1.9793558165549527
+          }
+        },
+        "RIDRETH3": {
+          "1.0": {
+            "n_eligible": 985,
+            "n_valid": 975,
+            "missing_or_invalid_pct": 1.015228426395939,
+            "weighted_missing_or_invalid_pct": 0.9557994876005296
+          },
+          "2.0": {
+            "n_eligible": 890,
+            "n_valid": 870,
+            "missing_or_invalid_pct": 2.247191011235955,
+            "weighted_missing_or_invalid_pct": 1.5450050092480931
+          },
+          "3.0": {
+            "n_eligible": 2932,
+            "n_valid": 2859,
+            "missing_or_invalid_pct": 2.489768076398363,
+            "weighted_missing_or_invalid_pct": 1.6465216100166191
+          },
+          "4.0": {
+            "n_eligible": 2291,
+            "n_valid": 2210,
+            "missing_or_invalid_pct": 3.535573985159319,
+            "weighted_missing_or_invalid_pct": 3.2862233946135326
+          },
+          "6.0": {
+            "n_eligible": 1037,
+            "n_valid": 1009,
+            "missing_or_invalid_pct": 2.700096432015429,
+            "weighted_missing_or_invalid_pct": 3.1613071406458477
+          },
+          "7.0": {
+            "n_eligible": 409,
+            "n_valid": 396,
+            "missing_or_invalid_pct": 3.1784841075794623,
+            "weighted_missing_or_invalid_pct": 1.8899626865963628
+          }
+        }
+      },
+      "demographics_before_lab_join": {
+        "n_adults_demographics": 9232,
+        "n_adults_positive_mec_weight": 8544
+      }
+    },
+    "2021-2023": {
+      "n_adults_demographics": 7809,
+      "n_adults_positive_mec_weight": 6064,
+      "n_adults_interview_only": 1745,
+      "n_adults_missing_mec_weight": 0,
+      "n_adults_zero_mec_weight": 1745,
+      "n_adults_negative_mec_weight": 0,
+      "n_eligible_no_lab_row": 0,
+      "lab_record_categories": {
+        "no_lab_record": 0,
+        "both_analytes_missing_with_record": 154,
+        "albumin_only_missing_with_record": 0,
+        "creatinine_only_missing_with_record": 0,
+        "both_analytes_present_valid": 5910,
+        "both_analytes_present_invalid": 0
+      },
+      "n_eligible_valid_lab": 5910,
+      "n_eligible_missing_or_invalid_lab": 154,
+      "missing_or_invalid_pct_of_eligible": 2.5395778364116097,
+      "weighted_missing_or_invalid_pct_of_eligible": 2.6025970791474125,
+      "n_eligible_nonmissing_invalid_albumin": 0,
+      "n_eligible_nonmissing_invalid_creatinine": 0,
+      "n_eligible_missing_design": 0,
+      "missingness_patterns_among_eligible": {
+        "albumin_missing_True_creatinine_missing_True": 154,
+        "albumin_missing_True_creatinine_missing_False": 0,
+        "albumin_missing_False_creatinine_missing_True": 0,
+        "albumin_missing_False_creatinine_missing_False": 5910
+      },
+      "missingness_by_demographics": {
+        "age_group": {
+          "20-39": {
+            "n_eligible": 1559,
+            "n_valid": 1524,
+            "missing_or_invalid_pct": 2.2450288646568315,
+            "weighted_missing_or_invalid_pct": 2.650133107448084
+          },
+          "40-59": {
+            "n_eligible": 1733,
+            "n_valid": 1700,
+            "missing_or_invalid_pct": 1.9042123485285631,
+            "weighted_missing_or_invalid_pct": 1.7619564163673869
+          },
+          "60+": {
+            "n_eligible": 2772,
+            "n_valid": 2686,
+            "missing_or_invalid_pct": 3.1024531024531026,
+            "weighted_missing_or_invalid_pct": 3.454403765009889
+          }
+        },
+        "RIAGENDR": {
+          "1.0": {
+            "n_eligible": 2720,
+            "n_valid": 2650,
+            "missing_or_invalid_pct": 2.573529411764706,
+            "weighted_missing_or_invalid_pct": 2.701907927747647
+          },
+          "2.0": {
+            "n_eligible": 3344,
+            "n_valid": 3260,
+            "missing_or_invalid_pct": 2.511961722488038,
+            "weighted_missing_or_invalid_pct": 2.5091945656573658
+          }
+        },
+        "RIDRETH3": {
+          "1.0": {
+            "n_eligible": 405,
+            "n_valid": 393,
+            "missing_or_invalid_pct": 2.962962962962963,
+            "weighted_missing_or_invalid_pct": 3.204919116378736
+          },
+          "2.0": {
+            "n_eligible": 614,
+            "n_valid": 599,
+            "missing_or_invalid_pct": 2.44299674267101,
+            "weighted_missing_or_invalid_pct": 3.268266322958445
+          },
+          "3.0": {
+            "n_eligible": 3569,
+            "n_valid": 3484,
+            "missing_or_invalid_pct": 2.3816195012608574,
+            "weighted_missing_or_invalid_pct": 2.312077601551293
+          },
+          "4.0": {
+            "n_eligible": 753,
+            "n_valid": 734,
+            "missing_or_invalid_pct": 2.5232403718459495,
+            "weighted_missing_or_invalid_pct": 2.7115295222426727
+          },
+          "6.0": {
+            "n_eligible": 335,
+            "n_valid": 327,
+            "missing_or_invalid_pct": 2.388059701492537,
+            "weighted_missing_or_invalid_pct": 1.7033793346784476
+          },
+          "7.0": {
+            "n_eligible": 388,
+            "n_valid": 373,
+            "missing_or_invalid_pct": 3.865979381443299,
+            "weighted_missing_or_invalid_pct": 4.41475838922357
+          }
+        }
+      },
+      "demographics_before_lab_join": {
+        "n_adults_demographics": 7809,
+        "n_adults_positive_mec_weight": 6064
+      }
+    }
+  }
+}

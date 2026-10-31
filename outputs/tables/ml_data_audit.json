@@ -1,0 +1,50 @@
+{
+  "n_adults": 5910,
+  "n_raw_positive": 721,
+  "n_converted_positive": 786,
+  "predictors": [
+    {
+      "predictor": "age",
+      "n_missing": 0,
+      "pct_missing": 0.0
+    },
+    {
+      "predictor": "bmi",
+      "n_missing": 63,
+      "pct_missing": 1.065989847715736
+    },
+    {
+      "predictor": "systolic",
+      "n_missing": 161,
+      "pct_missing": 2.72419627749577
+    },
+    {
+      "predictor": "diastolic",
+      "n_missing": 161,
+      "pct_missing": 2.72419627749577
+    },
+    {
+      "predictor": "sex",
+      "n_missing": 0,
+      "pct_missing": 0.0
+    },
+    {
+      "predictor": "diabetes",
+      "n_missing": 0,
+      "pct_missing": 0.0
+    },
+    {
+      "predictor": "smoking",
+      "n_missing": 7,
+      "pct_missing": 0.11844331641285956
+    }
+  ],
+  "source_sha256": {
+    "DEMO_L": "ca4374a158b493b8b0163e1388da21d57a18d1b9cecff2aa4e2fa2bec494fe23",
+    "ALB_CR_L": "fc011a80d14419884559372a3196f0a268b494f4f2fa972d00be1f3a23ba3c41",
+    "BMX_L": "44440c416d9ad709e8b1708a5975378ab4d5b18edc39eb5015c2ae7186500170",
+    "BPXO_L": "189aa9bed689d2c69cf8d780b01de85073276fea5694dd52cdf696229f9054a6",
+    "DIQ_L": "9535a023673ae869afae19d842d8679e06f6a464606ac15900686b41ef05090f",
+    "SMQ_L": "abbefebfa5585b1e19c079fa14be20c113a4649318070197214b258d05b93c50"
+  }
+}

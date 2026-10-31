@@ -1,0 +1,26 @@
+{
+  "n": 5910,
+  "folds": 5,
+  "seed": 42,
+  "training_outcome": "raw UACR >=30 mg/g",
+  "predictors": [
+    "age",
+    "bmi",
+    "systolic",
+    "diastolic",
+    "sex",
+    "diabetes",
+    "smoking"
+  ],
+  "validation": "out-of-fold; grouped by joint survey stratum/PSU",
+  "each_participant_evaluated_once": true,
+  "no_psu_overlap": true,
+  "inference": "exploratory point estimates; no confidence intervals or external validation",
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.1"
+  }
+}

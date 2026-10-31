@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "n_numeric_checks": 216,
+  "n_failed": 0,
+  "metadata_checks": {
+    "n_full_mec_design": true,
+    "n_strata": true,
+    "n_psus": true
+  },
+  "n_unweighted_qc_checks": 7,
+  "n_unweighted_qc_failed": 0,
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-08,
+  "maximum_absolute_difference": 2.7755575615628914e-17,
+  "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
+  "survey_version": "4.5",
+  "source_md5": {
+    "C:/Project_x/nhanes-albuminuria-harmonisation/data/raw/DEMO_L.xpt": "14555b1f4e3c909172e900f63a2ecd03",
+    "C:/Project_x/nhanes-albuminuria-harmonisation/data/raw/ALB_CR_L.xpt": "4252a89109e0e119b75cf6b42a05db72",
+    "C:/Project_x/nhanes-albuminuria-harmonisation/outputs/tables/paired_survey_analysis.json": "d16c406fcc127c0394159fbc8b96b9c6",
+    "C:/Project_x/nhanes-albuminuria-harmonisation/outputs/tables/feasibility_summary.json": "e7936801711564399d30a1a260686439"
+  },
+  "generated_utc": "2026-10-29 19:41:16 UTC"
+}

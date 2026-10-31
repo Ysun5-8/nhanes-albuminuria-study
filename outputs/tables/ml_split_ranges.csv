@@ -1,0 +1,17 @@
+model,outcome,metric,minimum,maximum
+gradient_boosting,converted_label,average_precision,0.3304865981793267,0.33668220111878233
+gradient_boosting,converted_label,brier,0.08905726327202243,0.0893009343407032
+gradient_boosting,converted_label,calibration_gap_pp,-1.1537023143661882,-1.1007665044810127
+gradient_boosting,converted_label,roc_auc,0.7485584549313952,0.7529120230088753
+gradient_boosting,raw_label,average_precision,0.31542186203472855,0.3217068115017338
+gradient_boosting,raw_label,brier,0.08161909450266766,0.08197559757787283
+gradient_boosting,raw_label,calibration_gap_pp,-0.0904032057308754,-0.037467395845700024
+gradient_boosting,raw_label,roc_auc,0.7613242568822436,0.7646569360432434
+logistic,converted_label,average_precision,0.3288010830692024,0.33633639938035303
+logistic,converted_label,brier,0.08983246606140044,0.09017649372609235
+logistic,converted_label,calibration_gap_pp,-1.065526819497982,-0.9887444164612624
+logistic,converted_label,roc_auc,0.7280326351278151,0.732728319079112
+logistic,raw_label,average_precision,0.3115562084224078,0.31822613343846445
+logistic,raw_label,brier,0.0825451000946534,0.0828240379164992
+logistic,raw_label,calibration_gap_pp,-0.0022277108626692077,0.07455469217405031
+logistic,raw_label,roc_auc,0.739780296123042,0.7443974039519359

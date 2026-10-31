@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "flow_checks": 13,
+  "comparison_tolerance": {
+    "relative": 1e-12,
+    "absolute": 1e-12
+  },
+  "baseline_comparisons": {
+    "mec_missingness_audit.json": {
+      "baseline_sha256": "b115c52e61164be54ec05ab670a047e73f99128340a10af33d031793ee613663",
+      "numeric_values": 140,
+      "other_values": 1
+    },
+    "feasibility_summary.json": {
+      "baseline_sha256": "4a6b868078a2e75bc83f75f242af90d616b63b4bd5c6a9c3a6d129f2cdc7e283",
+      "numeric_values": 10,
+      "other_values": 1
+    },
+    "paired_survey_analysis.json": {
+      "baseline_sha256": "00ed6af6c007a06c48607fd91d296ab71dba8cd36c81123d947867a3aaa751d1",
+      "numeric_values": 223,
+      "other_values": 7
+    }
+  }
+}

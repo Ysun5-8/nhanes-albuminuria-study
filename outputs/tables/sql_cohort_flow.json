@@ -1,0 +1,24 @@
+{
+  "engine": "SQLite",
+  "sqlite_version": "3.49.1",
+  "cycles": {
+    "2017-2020": {
+      "n_demographics": 15560,
+      "n_adults_demographics": 9232,
+      "n_full_mec_design": 14300,
+      "n_adults_positive_mec_weight": 8544,
+      "n_eligible_valid_lab": 8319,
+      "n_eligible_missing_or_invalid_lab": 225,
+      "n_eligible_no_lab_row": 0
+    },
+    "2021-2023": {
+      "n_demographics": 11933,
+      "n_adults_demographics": 7809,
+      "n_full_mec_design": 8860,
+      "n_adults_positive_mec_weight": 6064,
+      "n_eligible_valid_lab": 5910,
+      "n_eligible_missing_or_invalid_lab": 154,
+      "n_eligible_no_lab_row": 0
+    }
+  }
+}

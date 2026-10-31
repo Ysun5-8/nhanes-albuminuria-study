@@ -1,0 +1,17 @@
+{
+  "2017-2020": {
+    "n_adults_with_valid_lab": 8319,
+    "raw_above_30": 1168
+  },
+  "2021-2023": {
+    "n_adults_with_valid_lab": 5910,
+    "raw_above_30": 721,
+    "adjusted_above_30": 786,
+    "cross_below_to_above": 71,
+    "cross_above_to_below": 6,
+    "any_reclassification": 77,
+    "clipped_adjusted_albumin": 426,
+    "reclassified_pct_unweighted": 1.303,
+    "label": "unweighted exploratory counts, not national prevalence or clinical diagnoses"
+  }
+}
